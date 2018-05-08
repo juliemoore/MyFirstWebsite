@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+
+	<!--
+		INFO 1500 Web Development
+
+		Web Site Welcome Page
+		Author: Julie Moore
+		Date:  2/13/2017 
+
+		Filename:         	index.html
+		Supporting files: 	base.css, layout.css, effects.css, print.css, mobile.css, clips.css, modernizr-1.5.js, 
+		Image files:		headerimg.png, julie_moore.jpg, my-thinkpad.jpg, 
+
+	-->
+
+      <meta charset="UTF-8" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+      <title>Welcome Page</title>
+      <script src="modernizr-1.5.js"></script>
+	  <link href="styles/base.css" rel="stylesheet" type="text/css" />
+	  <link href="styles/layout.css" rel="stylesheet" type="text/css" media="screen and (min-width: 501px)" />
+	  <link href="styles/tables.css" rel="stylesheet" type="text/css" media="screen and (min-width: 501px)" />
+	  <link href="styles/effects.css" rel="stylesheet" media="screen and (min-width: 501px)" />
+	  <link href="styles/clips.css" rel="stylesheet" media="screen and (min-width: 501px)" />
+	  
+	  <!-- Style sheet links for Internet Explorer prior to version 9 -->
+		<!--[if lt IE 9]>
+		<link href="styles/layout.css" rel="stylesheet" media="screen" />
+		<link href="styles/effects.css" rel="stylesheet" media="screen" />
+		<![endif]-->
+	  
+		<link href="styles/print.css" rel="stylesheet" media="print" />
+		<link href="styles/mobile.css" rel="stylesheet" 
+			media="only screen and (max-width: 500px)" />
+	  
+	</head>
+
+	<body>
+
+		<header>
+			<img src="images/headerimg.png" alt="IT Development 101" />
+		</header>
+		
+		<nav class="horizontal">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="websites.html">Websites</a></li>
+					<li><a href="newtechnology.html">Technology</a></li>
+					<li><a href="webbrowsers.html">Browsers</a></li>
+					<li><a href="newsletter.html">Newsletter</a></li>			
+				</ul>
+			</nav>
+			
+			
+								
+		<section id="main">
+		<h2>Welcome!</h2>
+			<div class="img-with-text">
+			<img src="images/julie_moore.jpg" alt="Julie Moore" />
+			</div>
+			
+			<p>My name is Julie Moore and I am a student at Central Community College in 
+			Nebraska. I am pursing my associate degree in Information Technology Development. 
+			As part of my studies, I am learning how to develop websites and I am excited to apply
+			my new knowledge and skills on this website.</p>
+			
+			<p>The purpose of this web site is to provide you with interesting facts about Information 
+			Technology and Web Development and how it impacts our lives.</p>
+			
+			
+				<h3>Please listen below for a brief description of this website</h3>
+			
+				<audio controls="controls">
+					<source src="images/welcome.m4a" />
+					<source src="images/welcome.mp3" />
+					<source src="images/welcome.ogg" />
+				
+					<embed src="images/welcome.m4a" type="audio/mp4"
+						height="20" width="250" 
+						autoplay="no" controller="yes" />
+					
+				</audio>
+				
+				
+				<h5>The topics I will be sharing are the following:</h5>
+				
+				<table>
+				
+				<col class="firstCol" />
+				<col class="topics" span="3"/>
+				</colgroup>
+				
+				<thead>
+					<tr>
+						<th colspan="4">Table of contents</th>
+					</tr>								
+				</thead>
+				<tbody id="tableofcontents">
+					<tr>
+						<th><a href="websites.html">History and Development of Important Sites on the Web</a></th>
+						<td><a href="google.html">Google</a></td>
+						<td><a href="match.html">Match</a></td>
+						<td><a href="hotmail.html">Hotmail</a></td>
+					</tr>	
+					<tr>
+						<th><a href="newtechnology.html">Impact of New Technology</a></th>
+						<td><a href="3d-printing.html">3D Printing</a></td>
+						<td><a href="mp3.html">MP3 File</a></td>
+						<td><a href="virtual-reality.html">Virtual Reality</a></td>
+					</tr>
+					<tr>
+						<th><a href="webbrowsers.html">Web Browsers</a></th>
+						<td><a href="internet-explorer.html">Internet Explorer</a></td>
+						<td><a href="opera.html">Opera</a></td>
+						<td><a href="uc.html">UC</a></td>
+					</tr>
+					
+				</tbody>	
+			</table>
+	
+		</section>
+		
+		<div class="asideimg">
+			<a href="http://aislabs.com/solutions/web-development/">
+			<img src="images/web-development.png" alt="Web Development" />
+			</a>
+		</div>
+			
+		<footer>
+		<h1>Julie Moore &copy; 2017 English (US)</h1>
+		</footer>
+		
+	</body>
+
+</html>
+
+
+

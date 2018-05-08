@@ -1,0 +1,106 @@
+/*
+   Tables Style Sheet
+   Author: Julie Moore
+   Date:   3/28/2017
+
+   Filename:         tables.css
+   Supporting Files: 
+
+*/
+
+/* Styles for the table */
+
+table {
+	border: 10px outset rgb(74, 107, 138);
+	border-collapse: collapse;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.75em;
+	width: 94%;
+	margin: 3%;
+}
+
+table th, td {
+	border: 1px solid gray;
+}
+
+/* Table header styles */
+
+table thead {
+	background-color: rgb(4, 31, 55);
+}
+
+table thead tr {
+	height: 40px;
+}
+
+table thead th {
+	color: white;
+	font-size: 150%;
+}
+
+/* Table body styles */
+
+table tbody tr {
+	height: 40px;
+}
+
+table tbody tr#browsers {
+	background-color: rgb(4, 31, 55);
+	height: 30px;
+	font-size: 110%;
+	color: white;
+}
+
+table tbody tr#topics {
+	height: 50px;
+	font-size: 130%;
+	color: #554100;
+}
+
+
+table tbody td {
+	padding: .75% 0;
+	text-align: center;
+}
+
+/* Styles for the first column */
+
+table col.firstCol {
+	width: 30%;
+	background-color: rgba(255, 196, 170, 0.2);
+}
+
+/* Styles for the remaining columns */
+
+table col.browsers {
+	width: 15%;
+	text-align: center;
+}
+
+table col.topics {
+	width: 15%;
+	text-align: center;
+}
+
+/* Styles for the table caption */
+
+table caption {
+	caption-side: bottom;
+	text-align: right;
+	padding: 2% .75%;
+}
+
+/* Styles for table of content */
+
+
+
+table  a {
+	color: #554100;
+}
+
+table a:hover {
+	color: #D48B6A;
+	font-style: italic;
+}
+
+

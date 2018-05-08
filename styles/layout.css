@@ -1,0 +1,256 @@
+/*
+   INFO 1500 Web Development
+   Website Introduction Page
+
+   Author: Julie Moore
+   Date:   2/11/2017
+
+   Filename:         layout.css
+   Supporting Files: 
+
+*/
+
+/* Styles for the header */
+
+header { 
+	margin: 0 auto;
+	height: auto;
+}
+
+/* Styles for header image */
+
+header img {
+	display: block;
+	float: left;	
+	width: 100%;
+	
+	
+}
+
+/* Styles for the horizontal navigation bar */
+
+nav.horizontal {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 2%;
+	
+}
+
+nav.horizontal li {
+	display: block;
+	float: left;
+	width: 19%;
+	background-color: #D4BB6A;
+	font-size: 100%;
+	text-align: center;
+	padding: .75% 0;
+	border: 1.75px solid #554100;
+}
+
+nav.horizontal li, a {
+	text-decoration: none;	
+	color: #554100;	
+	
+}
+
+nav.horizontal a:hover {
+	color: white;
+	font-style: italic;
+}
+
+/* Styles for the vertical navigation */
+
+nav.vertical {
+	margin: 12% 0 4% 3%;
+	width: 20%;
+	clear: left;
+	float: left;
+}
+
+nav.vertical ul {	
+	list-style: none;	
+}
+
+nav.vertical li {	
+	padding: 5%;
+	font-size: 100%;
+	background-color: rgb(255, 196, 170);
+	border-bottom: 1px solid #551A00;
+}
+
+nav.vertical a {
+	text-decoration: none;
+	color: #551A00;
+	margin: 0px 1%;
+}
+
+nav.vertical a:hover {
+	font-style: italic;
+	color: white;
+}
+
+/* Styles for the section */
+
+section#main {
+	padding: 1% 2% 3% 2%;
+	margin: 4% 3% 4% 0;
+	width: 65%;
+	float: right;	
+		
+	background-color: #ffffff;
+	color: #000000;
+    border: 3px solid #133453;
+	
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+}
+
+/* Styles for the main section */
+
+section h2 {
+	color: #133453;
+	font-weight: bold;
+	font-size: 180%;
+	text-align: center;
+	width: 100%;
+	padding: 0em 0em 3% 0em;
+}
+
+section h3 {
+	color: #133453;
+	font-size: 120%;
+	text-align: center;
+	width: 100%;
+	padding: 10% 0em 1% 0em;
+}
+
+section h4 {
+	color: #133453;
+	font-size: 130%;
+	text-align: center;
+	width: 100%;
+	padding: 1% 0;
+
+}
+
+section h5 {
+	color: #133453;
+	font-size: 110%;
+	text-align: center;
+	width: 100%;
+	padding: 3% 0 1% 0;
+}
+
+section p {
+	font-size: 100%;
+	padding-bottom: 2%;
+}
+
+
+section ol {
+	padding: 0 0 0 5%;
+}
+
+section ol li {
+	font-size: 100%;
+	padding-bottom: .5%;
+}
+
+section ol li a {
+	color: #00A0C6;
+}
+
+section ol li a:hover {
+	color: #D48B6A;
+	font-style: italic;
+}
+
+
+/* Styles for the section image */
+
+section#main div.img-with-text {
+	padding: 1% 4% 1% 0;
+	float: left;
+	width: 35%;
+}
+
+section#main div.img-with-text img {
+    display: block;
+	width: 100%;
+	padding: 0;
+    margin: 0 auto;
+}
+
+section#main div.img2-with-text {  
+   float: right;
+   width: 30%;
+   padding: 2%;
+}
+
+section#main div.img2-with-text img {
+    display: block;
+	width: 100%;
+	padding: 0em;
+    margin: 0 auto;
+}
+
+section#main div.img3-with-text {
+	display: block;
+	float: left;
+	width: 80%;
+	padding: 5% 10%;
+}
+
+section#main div.img3-with-text img {
+	display: block;
+	width: 100%;
+	padding: 0em;
+	margin: 0 auto;	
+}
+	
+/* Styles for the aside image */
+
+div.asideimg {
+	display: block;
+	float: left;
+	width: 20%;
+	margin: 12% 0 4% 3%;
+}
+
+div.asideimg img{
+	width: 100%;
+	float: left;
+}
+
+
+
+/* Styles for the footer */
+
+footer {
+	border-top: 3px solid #00A0C6;
+	clear: both;
+	color: #000000;
+	background-repeat:no-repeat;
+	background-position:right top;
+	background-image: -moz-linear-gradient(
+	    top, #BCE2F4 0%, #ffffff 20%, #BCE2F4 20%, #ffffff 20%, #BCE2F4 100%);
+	background-image: -webkit-linear-gradient(
+	    top, #BCE2F4 0%, #ffffff 20%, #BCE2F4 20%, #ffffff 20%, #BCE2F4 100%);
+	background-image: -o-linear-gradient(
+	    top, #BCE2F4 0%, #ffffff 20%, #BCE2F4 20%, #ffffff 20%, #BCE2F4 100%);
+	background-image: linear-gradient(
+	    #BCE2F4 0%, #ffffff 20%, #BCE2F4 20%, #ffffff 20%, #BCE2F4 100%);
+		
+	min-height: 30px;
+	padding: 1em 0;
+}
+
+footer h1 {
+	color: #00A0C6;
+	font-size: 70%;
+	font-style: italic;
+	padding: .25em 0;
+	margin-right: 2%;
+	text-align: center;
+}

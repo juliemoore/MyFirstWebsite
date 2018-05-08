@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+
+	<!--
+		INFO 1500 Web Development
+
+		
+		Author: Julie Moore
+		Date:  4/1/2017 
+
+		Filename:			newsletter.html
+		Supporting files:	base.css, layout.css, effects.css, news.css, mobile.css, modernizr-1.5.js, formsubmit.js
+		Image files:		headerimg.png, stop.png, go.png
+
+	-->
+
+      <meta charset="UTF-8" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Newsletter</title>
+	  <meta name="viewport" content="width=500, initial-scale=1">
+      <script src="modernizr-1.5.js"></script>
+	  <script src="formsubmit.js"></script>
+	  <link href="styles/base.css" rel="stylesheet" type="text/css" />
+	  <link href="styles/layout.css" rel="stylesheet" type="text/css" media="screen and (min-width: 501px)" />
+	  <link href="styles/effects.css" rel="stylesheet" media="screen and (min-width: 501px)" />
+	  <link href="styles/news.css" rel="stylesheet" type="text/css" media="screen and (min-width: 501px)" />
+	  
+	  <!-- Style sheet links for Internet Explorer prior to version 9 -->
+		<!--[if lt IE 9]>
+		<link href="styles/layout.css" rel="stylesheet" media="screen" />
+		<link href="styles/effects.css" rel="stylesheet" media="screen" />
+		<![endif]-->
+	  
+		<link href="styles/print.css" rel="stylesheet" media="print" />
+		<link href="styles/mobile.css" rel="stylesheet" 
+			media="only screen and (max-width: 500px)" />
+	  
+	  
+	</head>
+	
+	<body>
+	
+		<header>
+			<img src="images/headerimg.png" alt="IT Development 101" />
+			
+		</header>
+		
+		<nav class="horizontal">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="websites.html">Websites</a></li>
+				<li><a href="newtechnology.html">Technology</a></li>
+				<li><a href="webbrowsers.html">Browsers</a></li>
+				<li><a href="newsletter.html">Newsletter</a></li>
+			</ul>
+		</nav>
+				
+		<section id="main">			
+			<h2>Newsletter</h2>
+			<p>Please sign up for my newletter if you would like more information
+			about about the changing nature of the Web and HTML. Your privacy is very important 
+			to me. I will not sell or share your information with a third party.</p>
+						
+		 
+		 <form id="newsletter" name="newsletter"
+		 action="http://www.itdevelopment101.com/cgi-bin/newsletter"
+		 method="post">
+		 
+			<h3>Newsletter Form</h3>
+		 
+			<fieldset id="contact">
+				<legend>Contact information</legend>
+				
+				<label for="fName">First Name</label>
+				<input name="fName" id="fName" 
+				required="required"
+				autofocus="autofocus" />
+				
+				<label for="lName">Last Name</label>
+				<input name="lName" id="lName" 
+						required="required" />
+						
+				<label for="email">Contact Email</label>
+				<input name="email" id="email" type="email" 
+						required="required"/>
+											
+			</fieldset><fieldset id="info">
+				<legend>Additional Information</legend>
+				
+				<h3>&#9913; Please leave a comment</h3>
+				
+				<label for="notes">Special Notes</label>
+				<textarea name="notes" id="notes"></textarea>
+			</fieldset>
+			
+			<p>
+				<input type="submit" value="Submit" />
+			</p>
+		 
+		</form>
+					
+		</section>
+		
+		<div class="asideimg">
+			<a href="http://aislabs.com/solutions/web-development/">
+			<img src="images/web-development.png" alt="Web Development" />
+			</a>
+		</div>
+		
+		<footer>
+			<h1>Julie Moore &copy; 2017 English (US)</h1>
+		</footer>
+	
+	</body>
+
+</html>

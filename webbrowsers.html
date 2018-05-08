@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+
+	<!--
+		INFO 1500 Web Development
+
+		
+		Author: Julie Moore
+		Date:  3/11/2017 
+
+		Filename:			webbrowsers.html
+		Supporting files:	base.css, layout.css, effects.css, print.css, mobile.css, modernizr-1.5.js,tables.css
+		Image files:		headerimg.png, info-tech.jpg, Marc-Andreessen.jpg, StatCounter.png
+
+	-->
+
+      <meta charset="UTF-8" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 	  
+      <title>Web Browsers</title>
+      <script src="modernizr-1.5.js"></script>
+	  <link href="styles/base.css" rel="stylesheet" type="text/css" />
+	  <link href="styles/layout.css" rel="stylesheet" type="text/css" media="screen and (min-width: 501px)" />
+	  <link href="styles/effects.css" rel="stylesheet" media="screen and (min-width: 501px)" />
+	  <link href="styles/tables.css" rel="stylesheet" type="text/css" media="screen and (min-width: 501px)" />
+	  
+	  <!-- Style sheet links for Internet Explorer prior to version 9 -->
+		<!--[if lt IE 9]>
+		<link href="styles/layout.css" rel="stylesheet" media="screen" />
+		<link href="styles/effects.css" rel="stylesheet" media="screen" />
+		<![endif]-->
+	  
+		<link href="styles/print.css" rel="stylesheet" media="print" />
+		<link href="styles/mobile.css" rel="stylesheet" 
+			media="only screen and (max-width: 500px)" />
+	  
+	</head>
+	
+	<body>
+	
+		<header>
+			<img src="images/headerimg.png" alt="IT Development 101" />
+		</header>
+		
+		<nav class="horizontal">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="websites.html">Websites</a></li>
+				<li><a href="newtechnology.html">Technology</a></li>
+				<li><a href="webbrowsers.html">Browsers</a></li>
+				<li><a href="newsletter.html">Newsletter</a></li>
+			</ul>
+		</nav>
+				
+		<section id="main">	
+			<h2>Web Browsers</h2>
+			
+			<div class="img-with-text">
+				<a href="http://www.newyorker.com/magazine/2015/05/18/tomorrows-advance-man">
+				<img src="images/Marc-Andreessen.jpg" alt="Marc Andreessen" />
+				</a>
+			</div>
+			
+			<p>A web browser is a software application you use to access the information from the World Wide 
+				Web, private networks or file systems, such as Windows File Explorer. The primary purpose and
+				function of a browser is to retrieve information, display the information and then access other
+				information by navigating through networks or links. Web browsers initiates the retrieval
+				process when the user enters an internet address (URL). Web
+				browsers use a layout engine to render pages from markup language, such as HTML, to a readable format.
+			</p>
+			
+			<h3>Comparison of popular browsers' elements support for HTML5</h3>
+			
+			<table>
+			<caption><a href="https://html5test.com/">Source: HTML5TEST</a></caption>
+				
+				<colgroup>
+				<col class="firstCol" />
+				<col class="browsers" span="5"/>
+				</colgroup>
+				
+				<thead>
+					<tr>
+						<th>Total Score</th>
+						<th>492</th>
+						<th>473</th>
+						<th>461</th>
+						<th>383</th>
+						<th>489</th>
+					</tr>								
+				</thead>
+				<tbody>
+					<tr id="browsers">
+						<th>Browser</th>
+						<td>Chrome 52</td>
+						<td>Edge 15</td>
+						<td>Firefox 48</td>
+						<td>Safari 10.0</td>
+						<td>Opera 37</td>
+					</tr>	
+					<tr>
+						<th colspan="6">New or modified elements</th>
+					</tr>
+					<tr>
+						<th>Section elements</th>
+						<td>Yes  &#10004;</td>
+						<td>Yes  &#10004;</td>
+						<td>Yes  &#10004;</td>
+						<td>Yes  &#10004;</td>
+						<td>Yes  &#10004;</td>
+					</tr>
+					<tr>
+						<th>Grouping content elements</th>
+						<td>Yes  &#10004;</td>
+						<td>Partial  &#9900;</td>
+						<td>Yes  &#10004;</td>
+						<td>Yes  &#10004;</td>
+						<td>Yes  &#10004;</td>
+					</tr>
+					<tr>
+						<th>Text-level semantic elements</th>
+						<td>Partial  &#9900;</td>
+						<td>Partial  &#9900;</td>
+						<td>Partial  &#9900;</td>
+						<td>Partial  &#9900;</td>
+						<td>Partial  &#9900;</td>
+					</tr>
+					<tr>
+						<th>Interactive elements</th>
+						<td>Partial  &#9900;</td>
+						<td>No  X</td>
+						<td>Partial  &#9900;</td>
+						<td>Partial  &#9900;</td>
+						<td>Partial  &#9900;</td>					
+					</tr>
+				</tbody>	
+			</table>
+			
+			<p>The first web browser was invented by Sir Tim Berners-Lee in 1990. The first graphical user interface 
+				was Erase. In 1993, Marc Andreesen released Mosaic, which led to the explosion of the use of the 
+				internet. Andreesen later started his own company, named Netscape. In 1994, he released Netscape 
+				Navigator, which became the world's most popular browser, with a 90% market share.
+			</p>
+						
+			<p>The "browser war" began with the release of Microsoft's Internet Explorer in 1995. Opera was
+				released in 1996 and focused their attention to mobile phone web browsers and the Nintendo Wii.
+				In 1998, Netscape launched the Mozilla Foundation for using open source software
+				to develop web browsers. Firefox is the result of the project. Apple Safari was released in 2003,
+				primarily for Mac users. Chrome was released in 2008 and has since dominated the market.  
+				(Web browsers, n.d.) There are many other browsers available throughout the world. For 
+				informational purposes, I will be covering the following browsers:
+			</p>
+			
+			<ol>
+				<li><a href="internet-explorer.html">Internet Explorer</a></li>
+				<li><a href="opera.html">Opera</a></li>
+				<li><a href="uc.html">UC</a></li>
+			</ol>
+			
+			<h3>References</h3>
+			
+			<ol>
+				<li><a href="https://en.wikipedia.org/wiki/Web_browser">
+					Web browsers (n.d.) Retrieved from Wikipedia</a></li>
+			</ol>
+					
+		</section>
+						
+		<nav class="vertical">
+			<ul>
+				<li><a href="internet-explorer.html">Internet Explorer</a></li>
+				<li><a href="opera.html">Opera</a></li>
+				<li><a href="uc.html">UC</a></li>
+			</ul>
+		</nav>
+		
+		<footer>
+			<h1>Julie Moore &copy; 2017 English (US)</h1>
+		</footer>
+	
+	</body>
+
+</html>

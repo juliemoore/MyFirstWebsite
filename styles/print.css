@@ -1,0 +1,71 @@
+/*
+   INFO 1500 Web Development
+
+   Print Styles
+   Author: Julie Moore
+   Date:   3/26/2017
+
+   Filename:         print.css
+   Supporting Files: 
+
+*/
+
+/* Styles to be used for print displays */
+
+@page {
+	size: 8.5in 11in;
+	margin: 0.5in;
+}
+
+@page port {
+	size: portrait;
+	}
+
+/* Hide page elements that will not be printed */
+
+header, nav, div, img, audio, video, form, footer {
+	display: none;
+}
+
+/* Setting the page breaks in the document */
+
+section {
+	display: block;
+	page-break-after: always;
+	page-break-inside: avoid;
+}
+
+/* Styles for the h1 heading */
+
+h1 {
+	font-size: 28pt;
+	text-align: center;
+	width: 100%;
+}
+
+h2 {
+	font-size: 28pt;
+	text-align: center;
+	width: 100%;
+}
+
+h4 {
+	font-size: 14pt;
+	text-align: center;
+	width: 100%;
+}
+
+p {
+	font-size: 12pt;
+	text-align: left;
+	width: 100%;
+	padding: .5em;
+}
+
+a {
+	font-size: 12pt;
+	text-align: left;
+	list-style: none;
+	color: black;
+}
+

@@ -1,0 +1,126 @@
+/*
+   INFO 1500 Web Development
+   Website Introduction Page
+
+   Special Effects style sheet
+   Author: Julie Moore
+   Date:   4/9/2017
+
+   Filename:         effects.css
+
+      
+/* Heading text style */
+   
+header h1 {
+   text-shadow: white 1px 1px 0px,
+					rgba(74, 107, 138, 0.7) 5px 5px 10px;
+}
+   
+section#main h2 {
+   text-shadow: black 1px 1px 0px,
+					rgba(90, 127, 0, 0.7) 5px 5px 10px;
+}
+
+ 
+section#main h1 {
+text-shadow: black 1px 1px 0px,
+			rgba(90, 127, 0, 0.7) 5px 5px 10px;
+}
+   
+section#main h2 {
+   text-shadow: black 1px 1px 0px,
+					rgba(90, 127, 0, 0.7) 5px 5px 10px;
+}
+   
+section#main h3 {
+	   text-shadow: black 1px 1px 0px,
+					rgba(90, 127, 0, 0.7) 5px 5px 10px;
+}
+
+section#main h4 {
+   text-shadow: black 1px 1px 0px,
+					rgba(90, 127, 0, 0.7) 5px 5px 10px;
+}
+  
+
+section#main h5 {
+	   text-shadow: black 1px 1px 0px,
+					rgba(90, 127, 0, 0.7) 5px 5px 10px;
+}
+
+legend {
+	-moz-box-shadow: inset rgba(0, 0, 0, 0.3) -5px -5px 10px;
+	-webkit-box-shadow: inset rgba(0, 0, 0, 0.3) -5px -5px 10px;
+	box-shadow: inset rgba(0, 0, 0, 0.3) -5px -5px 10px;
+}  
+
+textarea {
+	-moz-box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 10px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 10px;
+	box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 10px;
+}
+
+input {
+	-moz-box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 10px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 10px;
+	box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 10px;
+}
+
+
+/* Footer styles */
+   
+footer h1 {
+	   text-shadow: black 1px 1px 0px,
+					rgba(90, 127, 0, 0.7) 5px 5px 10px;
+   }
+
+/* Box shadow styles */
+
+div img {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	
+	-moz-box-shadow: rgba(0, 0, 0, 0.6) 10px 10px 15px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.6) 10px 10px 15px;
+	box-shadow: rgba(0, 0, 0, 0.6) 10px 10px 15px;
+}
+
+section#main {
+	-moz-box-shadow: inset rgba(0, 0, 0, 0.3) -5px -5px 10px;
+	-webkit-box-shadow: inset rgba(0, 0, 0, 0.3) -5px -5px 10px;
+	box-shadow: inset rgba(0, 0, 0, 0.3) -5px -5px 10px;
+}
+
+section#main table {
+	-moz-box-shadow: black 5px 5px 5px;
+	-webkit-box-shadow: black 5px 5px 5px;
+	box-shadow: black 5px 5px 5px;
+}
+
+/* Navigation styles */
+
+nav li {
+	-moz-box-shadow: inset rgba(0, 0, 0, 0.2) -5px -5px 5px;
+	-webkit-box-shadow: inset rgba(0, 0, 0, 0.2) -5px -5px 5px;
+	box-shadow: inset rgba(0, 0, 0, 0.2) -5px -5px 5px;
+	
+	-moz-border-radius:  5px;
+   -webkit-border-radius:  5px;
+   border-radius: 5px;
+}
+
+/* Styles for audio/video */
+
+section#main audio {
+	-moz-box-shadow: black 5px 5px 5px;
+	-webkit-box-shadow: black 5px 5px 5px;
+	box-shadow: black 5px 5px 5px;
+}
+
+section#main video {
+	-moz-box-shadow: inset rgba(0, 0, 0, 0.3) -5px -5px 20px;
+	-webkit-box-shadow: inset rgba(0, 0, 0, 0.3) -5px -5px 20px;
+	box-shadow: inset rgba(0, 0, 0, 0.3) -5px -5px 20px;	
+
+}

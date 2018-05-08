@@ -1,0 +1,45 @@
+/*
+   INFO 1500 Web Development
+   Website Introduction Page Audio
+
+   Author: Julie Moore
+   Date:   4/3/2017
+
+   Filename:         clips.css
+   Supporting Files: 
+
+*/
+
+
+/* Multimedia control styles */
+
+/* Styles for the audio */
+
+section#main audio {
+   width: 80%;
+   padding: 1%;
+   margin: 2% 8%;
+   background-color: rgb(212, 187, 106);
+   border: 3px  solid rgb(85, 65, 0);
+
+   -moz-border-radius:  30px;
+   -webkit-border-radius:  30px;
+   border-radius: 30px;
+}
+
+/* Styles for the video */
+
+section#main video {
+	border: 10px outset rgb(74, 107, 138);
+	background-color: rgb(128, 102, 21);
+	display: block;
+	text-align: center;
+	width: 86%;
+	padding: 5%;
+	margin: 3% 0;
+}
+
+
+
+
+

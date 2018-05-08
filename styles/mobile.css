@@ -1,0 +1,1079 @@
+/*
+   INFO 1500 Web Development
+
+   Mobile Styles
+   Author: Julie Moore
+   Date:   3/25/2017
+
+   Filename:         mobile.css
+   Supporting Files: mobileheaderimg.png
+
+*/
+
+
+/* Mobile styles under portrait orientation */
+
+@media screen and (orientation: portrait) {
+	
+/* To prevent elements from displaying in mobile view */
+
+div.asideimg, div.asideimg img, footer {
+	display: none;
+}	
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 100%;
+	max-height: 2000px;
+	
+	background-image: -moz-linear-gradient(
+	    top, #BCE2F4 0%, #ffffff 40%, #BCE2F4 20%, #ffffff 20%, #BCE2F4 100%);
+	background-image: -webkit-linear-gradient(
+	    top, #BCE2F4 0%, #ffffff 40%, #BCE2F4 20%, #ffffff 20%, #BCE2F4 100%);
+	background-image: -o-linear-gradient(
+	    top, #BCE2F4 0%, #ffffff 40%, #BCE2F4 20%, #ffffff 20%, #BCE2F4 100%);
+	background-image: linear-gradient(
+	    #BCE2F4 0%, #ffffff 40%, #BCE2F4 20%, #ffffff 20%, #BCE2F4 100%);
+}
+
+
+
+header {	
+	background: url(mobileheaderimg.png) left center no-repeat;
+	
+	-o-background-size: 100%;
+	-moz-background-size: 100%;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	
+	width: 100%;
+	height: 100px;
+}
+
+header img {
+	width: 100%;
+	height: 100px;
+}
+
+
+/* Mobile navigation styles */
+
+nav.horizontal {
+	display: block;
+	float: left;
+	width: 100%;
+	margin: 0px;
+	height: auto;
+
+}
+
+nav.horizontal li {
+	background-color: #D4BB6A;
+	display: block;
+	width: 100%;
+	margin: 0px;
+	padding: 1.5%;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.5em;	
+	border: 1px solid #554100;
+		
+	-moz-box-shadow: inset rgba(0, 0, 0, 0.2) -5px -5px 5px;
+	-webkit-box-shadow: inset rgba(0, 0, 0, 0.2) -5px -5px 5px;
+	box-shadow: inset rgba(0, 0, 0, 0.2) -5px -5px 5px;		
+}
+
+nav.horizontal li, a {
+	text-decoration: none;
+	color: #554100;	
+	
+}
+
+nav.horizontal a:hover {
+	color: white;
+	font-style: italic;
+}
+
+/* Styles for the vertical navigation */
+
+nav.vertical {
+	width: 100%;
+	clear: left;
+	float: left;
+}
+
+nav.vertical ul {	
+	list-style: none;	
+}
+
+nav.vertical li {	
+	background-color: rgb(255, 196, 170);
+	padding: 1.5%;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 2em;	
+	border: 1px solid #554100;
+		
+	-moz-box-shadow: inset rgba(0, 0, 0, 0.2) -5px -5px 5px;
+	-webkit-box-shadow: inset rgba(0, 0, 0, 0.2) -5px -5px 5px;
+	box-shadow: inset rgba(0, 0, 0, 0.2) -5px -5px 5px;	
+}
+
+nav.vertical a {
+	text-decoration: none;
+	color: #551A00;
+	margin: 0px 1%;
+}
+
+nav.vertical a:hover {
+	font-style: italic;
+	color: white;
+}
+
+
+
+/* Section styles */
+
+section {
+	float: left;
+	width: 100%;
+	height: auto;
+	padding: 1% 3% 3% 3%;
+	margin: 0px;
+	
+	background-color: #ffffff;
+	color: #000000;
+    border: 2px solid #133453;
+	
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+}
+	
+/* Section heading styles */
+   
+h2 {
+	color: #133453;
+	font-size: 24px;
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: 1%;
+	
+	text-shadow: black 1px 1px 0px,
+					rgba(90, 127, 0, 0.7) 5px 5px 10px;
+}
+
+h3 {
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+	font-size: 18px;
+	text-align: center;
+	color: #133453;
+	font-weight: bold;
+	
+	text-shadow: white 1px 1px 0px,
+					rgba(74, 107, 138, 0.7) 5px 5px 10px;
+}
+h4 {
+	color: #133453;
+	margin: 0px 0px 10px 0px;
+	font-size: 18px;
+	text-align: center;
+	
+	text-shadow: white 1px 1px 0px,
+					rgba(74, 107, 138, 0.7) 5px 5px 10px;
+}
+
+h5 {	
+	color: #133453;
+	margin: 0px 0px 10px 0px;
+	font-size: 18px;
+	text-align: center;
+	
+	text-shadow: white 1px 1px 0px,
+					rgba(74, 107, 138, 0.7) 5px 5px 10px;
+}
+
+p {
+	margin: 0px 0px 10px 0px;
+	font-size: 14px;
+
+}
+
+ol {
+	padding: 1% 0 1% 5%;
+}
+
+ol li {	
+	font-size: 16px;
+}
+
+section a {
+	text-decoration: none;
+	color: #00A0C6;
+}
+
+section a:hover {
+	color: #D48B6A;
+	font-style: italic;
+}
+
+/* Styles for the section image */
+
+section#main div.img-with-text {
+	padding: 1% 4% 1% 0;
+	float: left;
+	width: 35%;
+}
+
+section#main div.img-with-text img {
+    display: block;
+	width: 100%;
+	padding: 0;
+    margin: 0 auto;
+}
+
+section#main div.img2-with-text {  
+   float: right;
+   width: 30%;
+   padding: 2%;
+}
+
+section#main div.img2-with-text img {
+    display: block;
+	width: 100%;
+	padding: 0em;
+    margin: 0 auto;
+}
+
+section#main div.img3-with-text {
+	display: block;
+	float: left;
+	width: 80%;
+	padding: 5% 10%;
+}
+
+section#main div.img3-with-text img {
+	display: block;
+	width: 100%;
+	padding: 0em;
+	margin: 0 auto;	
+}
+
+/* Box shadow styles */
+
+div img {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	
+	-moz-box-shadow: rgba(0, 0, 0, 0.6) 10px 10px 15px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.6) 10px 10px 15px;
+	box-shadow: rgba(0, 0, 0, 0.6) 10px 10px 15px;
+}
+
+
+
+/* Audio and video styles */
+
+audio {
+	float: left;
+	width: 90%;
+	padding: 2%;
+	margin: 3% 0;
+	background-color: rgb(212, 187, 106);
+	border: 3px  solid rgb(85, 65, 0);
+
+   -moz-border-radius:  30px;
+   -webkit-border-radius:  30px;
+   border-radius: 30px;
+   
+   -moz-box-shadow: black 5px 5px 5px;
+	-webkit-box-shadow: black 5px 5px 5px;
+	box-shadow: black 5px 5px 5px;
+}
+
+
+/* Styles for the video */
+
+section#main video {
+	border: 10px outset rgb(74, 107, 138);
+	background-color: rgb(128, 102, 21);
+	display: block;
+	text-align: center;
+	width: 86%;
+	padding: 5%;
+	margin: 3% 0;
+	
+	-moz-box-shadow: inset rgba(0, 0, 0, 0.3) -5px -5px 20px;
+	-webkit-box-shadow: inset rgba(0, 0, 0, 0.3) -5px -5px 20px;
+	box-shadow: inset rgba(0, 0, 0, 0.3) -5px -5px 20px;
+}
+
+
+
+/* Styles for the table */
+
+table {
+	border: 10px outset rgb(74, 107, 138);
+	border-collapse: collapse;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 100%;
+	margin: 3% 1%;
+	
+	-moz-box-shadow: black 5px 5px 5px;
+	-webkit-box-shadow: black 5px 5px 5px;
+	box-shadow: black 5px 5px 5px;
+
+}
+
+table th, td {
+	border: 1px solid gray;
+}
+
+/* Table header styles */
+
+table thead {
+	background-color: rgb(4, 31, 55);
+}
+
+table thead tr {
+	height: 40px;
+}
+
+table thead th {
+	color: white;
+	font-size: 150%;
+}
+
+/* Table body styles */
+
+table tbody tr {
+	height: 40px;
+}
+
+table tbody tr#browsers {
+	background-color: rgb(4, 31, 55);
+	height: 30px;
+	font-size: 110%;
+	color: white;
+}
+
+table tbody tr#topics {
+	height: 50px;
+	font-size: 130%;
+	color: #554100;
+}
+
+
+table tbody td {
+	padding: .75% 0;
+	text-align: center;
+}
+
+/* Styles for the first column */
+
+table col.firstCol {
+	width: 30%;
+	background-color: rgba(255, 196, 170, 0.2);
+}
+
+/* Styles for the remaining columns */
+
+table col.browsers {
+	width: 15%;
+	text-align: center;
+}
+
+table col.topics {
+	width: 15%;
+	text-align: center;
+}
+
+/* Styles for the table caption */
+
+table caption {
+	caption-side: bottom;
+	text-align: right;
+	padding: 2% .75%;
+}
+
+/* Styles for table of content */
+
+
+
+table  a {
+	color: #554100;
+}
+
+table a:hover {
+	color: #D48B6A;
+	font-style: italic;
+}
+
+
+/* Form styles */
+
+form {
+	width: 90%;
+	margin: 1% 4%;
+}
+
+fieldset {
+	width: 100%;
+	border: 0px;
+	padding: 1.5% 0;
+}
+
+/* Legend styles */
+
+legend {
+	background-color: rgb(255, 196, 170);
+	margin: 3% 0;
+	padding: .5%;
+	text-indent: 5%;
+	width: 100%;
+	font-size: 120%;
+	
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	
+}
+
+/* Label styles */
+
+label {
+
+	clear: left;
+	float: left;
+	font-size: 100%;
+	text-align: left;
+	margin: .5% 0 .5% 5%;
+	width: 25%;
+}
+
+/* Input control styles */
+
+input {
+	display: block;
+	float: left;
+	font-size: 100%;
+	width: 65%;
+	margin: .25% 0;
+}
+
+input#csc {
+	width: 50%;
+}
+
+/* Selection list styles */
+
+select {
+	display: block;
+	float: left;
+	font-size: 100%;
+	margin: 1%;
+}
+
+
+/* Text area styles */
+
+#newsletter h3 {
+	color: #133453;
+	font-size: 130%;
+	text-align: center;
+	width: 100%;
+	padding: 2% 0em 1% 0em;
+}
+
+#info h3 {
+	color: #133453;
+	font-size: 130%;
+	text-align: center;
+	width: 100%;
+	padding: 2% 0;
+}
+
+textarea {
+	display: block;
+	float: left;
+	width: 65%;
+	width: 65%;;
+	padding: 0em 0em 1% 0em;
+	margin-bottom: 5%;
+	font-size: 100%;
+	height: 75px;
+	
+	-moz-box-shadow: inset rgba(0, 0, 0, 0.2) -5px -5px 5px;
+	-webkit-box-shadow: inset rgba(0, 0, 0, 0.2) -5px -5px 5px;
+	box-shadow: inset rgba(0, 0, 0, 0.2) -5px -5px 5px;
+}
+
+form p {
+	font-size: 100%;
+	text-align: center;
+}
+
+input[type="submit"] {
+	background-color: rgb(255, 196, 170);
+	float: none;
+	width: 25%;
+	padding: 1.5%;
+	margin: 0px auto;
+	
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+}
+
+/* Validation styles */
+
+input:focus, select:focus, textarea:focus {
+	background-color: rgba(189, 222, 252, 0.5);
+}
+
+
+	
+}
+
+
+
+
+
+
+@media screen and (orientation: landscape) {
+/* To prevent elements from displaying in mobile view */
+
+div.asideimg, div.asideimg img, footer {
+	display: none;
+}	
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 100%;
+	max-height: 2000px;
+	
+	background-image: -moz-linear-gradient(
+	    top, #BCE2F4 0%, #ffffff 40%, #BCE2F4 20%, #ffffff 20%, #BCE2F4 100%);
+	background-image: -webkit-linear-gradient(
+	    top, #BCE2F4 0%, #ffffff 40%, #BCE2F4 20%, #ffffff 20%, #BCE2F4 100%);
+	background-image: -o-linear-gradient(
+	    top, #BCE2F4 0%, #ffffff 40%, #BCE2F4 20%, #ffffff 20%, #BCE2F4 100%);
+	background-image: linear-gradient(
+	    #BCE2F4 0%, #ffffff 40%, #BCE2F4 20%, #ffffff 20%, #BCE2F4 100%);
+}
+
+
+
+header {	
+	background: url(mobileheaderimg.png) left center no-repeat;
+	
+	-o-background-size: 100%;
+	-moz-background-size: 100%;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	
+	width: 100%;
+	height: 100px;
+}
+
+header img {
+	width: 100%;
+	height: 100px;
+}
+
+
+/* Mobile navigation styles */
+
+nav.horizontal {
+	display: block;
+	float: left;
+	width: 100%;
+	margin: 0 auto;
+	height: auto;
+
+}
+
+nav.horizontal li {
+	background-color: #D4BB6A;
+	display: block;
+	width: 100%;
+	margin: 0px;
+	padding: 1.5%;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 2em;	
+	border: 1px solid #554100;
+		
+	-moz-box-shadow: inset rgba(0, 0, 0, 0.2) -5px -5px 5px;
+	-webkit-box-shadow: inset rgba(0, 0, 0, 0.2) -5px -5px 5px;
+	box-shadow: inset rgba(0, 0, 0, 0.2) -5px -5px 5px;		
+}
+
+nav.horizontal li, a {
+	text-decoration: none;
+	color: #554100;	
+	
+}
+
+nav.horizontal a:hover {
+	color: white;
+	font-style: italic;
+}
+
+/* Styles for the vertical navigation */
+
+nav.vertical {
+	width: 100%;
+	clear: left;
+	float: left;
+}
+
+nav.vertical ul {	
+	list-style: none;	
+}
+
+nav.vertical li {	
+	background-color: rgb(255, 196, 170);
+	padding: 1.5%;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 2em;	
+	border: 1px solid #554100;
+		
+	-moz-box-shadow: inset rgba(0, 0, 0, 0.2) -5px -5px 5px;
+	-webkit-box-shadow: inset rgba(0, 0, 0, 0.2) -5px -5px 5px;
+	box-shadow: inset rgba(0, 0, 0, 0.2) -5px -5px 5px;	
+}
+
+nav.vertical a {
+	text-decoration: none;
+	color: #551A00;
+	margin: 0px 1%;
+}
+
+nav.vertical a:hover {
+	font-style: italic;
+	color: white;
+}
+
+
+
+/* Section styles */
+
+section {
+	float: left;
+	width: 100%;
+	height: auto;
+	padding: 1% 3% 3% 3%;
+	margin: 0px;
+	
+	background-color: #ffffff;
+	color: #000000;
+    border: 2px solid #133453;
+	
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+}
+	
+/* Section heading styles */
+   
+h2 {
+	color: #133453;
+	font-size: 24px;
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: 1%;
+	
+	text-shadow: black 1px 1px 0px,
+					rgba(90, 127, 0, 0.7) 5px 5px 10px;
+}
+
+h3 {
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+	font-size: 18px;
+	text-align: center;
+	color: #133453;
+	font-weight: bold;
+	
+	text-shadow: white 1px 1px 0px,
+					rgba(74, 107, 138, 0.7) 5px 5px 10px;
+}
+h4 {
+	color: #133453;
+	margin: 0px 0px 10px 0px;
+	font-size: 18px;
+	text-align: center;
+	
+	text-shadow: white 1px 1px 0px,
+					rgba(74, 107, 138, 0.7) 5px 5px 10px;
+}
+
+h5 {	
+	color: #133453;
+	margin: 0px 0px 10px 0px;
+	font-size: 18px;
+	text-align: center;
+	
+	text-shadow: white 1px 1px 0px,
+					rgba(74, 107, 138, 0.7) 5px 5px 10px;
+}
+
+p {
+	margin: 0px 0px 10px 0px;
+	font-size: 14px;
+
+}
+
+ol {
+	padding: 1% 0 1% 5%;
+}
+
+ol li {	
+	font-size: 16px;
+}
+
+section a {
+	text-decoration: none;
+	color: #00A0C6;
+}
+
+section a:hover {
+	color: #D48B6A;
+	font-style: italic;
+}
+
+/* Styles for the section image */
+
+section#main div.img-with-text {
+	padding: 1% 4% 1% 0;
+	float: left;
+	width: 35%;
+}
+
+section#main div.img-with-text img {
+    display: block;
+	width: 100%;
+	padding: 0;
+    margin: 0 auto;
+}
+
+section#main div.img2-with-text {  
+   float: right;
+   width: 30%;
+   padding: 2%;
+}
+
+section#main div.img2-with-text img {
+    display: block;
+	width: 100%;
+	padding: 0em;
+    margin: 0 auto;
+}
+
+section#main div.img3-with-text {
+	display: block;
+	float: left;
+	width: 80%;
+	padding: 5% 10%;
+}
+
+section#main div.img3-with-text img {
+	display: block;
+	width: 100%;
+	padding: 0em;
+	margin: 0 auto;	
+}
+
+/* Box shadow styles */
+
+div img {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	
+	-moz-box-shadow: rgba(0, 0, 0, 0.6) 10px 10px 15px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.6) 10px 10px 15px;
+	box-shadow: rgba(0, 0, 0, 0.6) 10px 10px 15px;
+}
+
+
+
+/* Audio and video styles */
+
+audio {
+	float: left;
+	width: 90%;
+	padding: 2%;
+	margin: 3% 0;
+	background-color: rgb(212, 187, 106);
+	border: 3px  solid rgb(85, 65, 0);
+
+   -moz-border-radius:  30px;
+   -webkit-border-radius:  30px;
+   border-radius: 30px;
+   
+   -moz-box-shadow: black 5px 5px 5px;
+	-webkit-box-shadow: black 5px 5px 5px;
+	box-shadow: black 5px 5px 5px;
+}
+
+
+/* Styles for the video */
+
+section#main video {
+	border: 10px outset rgb(74, 107, 138);
+	background-color: rgb(128, 102, 21);
+	display: block;
+	text-align: center;
+	width: 86%;
+	padding: 5%;
+	margin: 3% 0;
+	
+	-moz-box-shadow: inset rgba(0, 0, 0, 0.3) -5px -5px 20px;
+	-webkit-box-shadow: inset rgba(0, 0, 0, 0.3) -5px -5px 20px;
+	box-shadow: inset rgba(0, 0, 0, 0.3) -5px -5px 20px;
+}
+
+
+
+/* Styles for the table */
+
+table {
+	border: 10px outset rgb(74, 107, 138);
+	border-collapse: collapse;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 100%;
+	margin: 3% 1%;
+	
+	-moz-box-shadow: black 5px 5px 5px;
+	-webkit-box-shadow: black 5px 5px 5px;
+	box-shadow: black 5px 5px 5px;
+
+}
+
+table th, td {
+	border: 1px solid gray;
+}
+
+/* Table header styles */
+
+table thead {
+	background-color: rgb(4, 31, 55);
+}
+
+table thead tr {
+	height: 40px;
+}
+
+table thead th {
+	color: white;
+	font-size: 150%;
+}
+
+/* Table body styles */
+
+table tbody tr {
+	height: 40px;
+}
+
+table tbody tr#browsers {
+	background-color: rgb(4, 31, 55);
+	height: 30px;
+	font-size: 110%;
+	color: white;
+}
+
+table tbody tr#topics {
+	height: 50px;
+	font-size: 130%;
+	color: #554100;
+}
+
+
+table tbody td {
+	padding: .75% 0;
+	text-align: center;
+}
+
+/* Styles for the first column */
+
+table col.firstCol {
+	width: 30%;
+	background-color: rgba(255, 196, 170, 0.2);
+}
+
+/* Styles for the remaining columns */
+
+table col.browsers {
+	width: 15%;
+	text-align: center;
+}
+
+table col.topics {
+	width: 15%;
+	text-align: center;
+}
+
+/* Styles for the table caption */
+
+table caption {
+	caption-side: bottom;
+	text-align: right;
+	padding: 2% .75%;
+}
+
+/* Styles for table of content */
+
+
+
+table  a {
+	color: #554100;
+}
+
+table a:hover {
+	color: #D48B6A;
+	font-style: italic;
+}
+
+
+/* Form styles */
+
+form {
+	width: 90%;
+	margin: 1% 4%;
+}
+
+fieldset {
+	width: 100%;
+	border: 0px;
+	padding: 1.5% 0;
+}
+
+/* Legend styles */
+
+legend {
+	background-color: rgb(255, 196, 170);
+	margin: 3% 0;
+	padding: .5%;
+	text-indent: 5%;
+	width: 100%;
+	font-size: 120%;
+	
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	
+}
+
+/* Label styles */
+
+label {
+
+	clear: left;
+	float: left;
+	font-size: 100%;
+	text-align: left;
+	margin: .5% 0 .5% 5%;
+	width: 25%;
+}
+
+/* Input control styles */
+
+input {
+	display: block;
+	float: left;
+	font-size: 100%;
+	width: 65%;
+	margin: .25% 0;
+}
+
+input#csc {
+	width: 50%;
+}
+
+/* Selection list styles */
+
+select {
+	display: block;
+	float: left;
+	font-size: 100%;
+	margin: 1%;
+}
+
+
+/* Text area styles */
+
+#newsletter h3 {
+	color: #133453;
+	font-size: 130%;
+	text-align: center;
+	width: 100%;
+	padding: 2% 0em 1% 0em;
+}
+
+#info h3 {
+	color: #133453;
+	font-size: 130%;
+	text-align: center;
+	width: 100%;
+	padding: 2% 0;
+}
+
+textarea {
+	display: block;
+	float: left;
+	width: 65%;
+	width: 65%;;
+	padding: 0em 0em 1% 0em;
+	margin-bottom: 5%;
+	font-size: 100%;
+	height: 75px;
+	
+	-moz-box-shadow: inset rgba(0, 0, 0, 0.2) -5px -5px 5px;
+	-webkit-box-shadow: inset rgba(0, 0, 0, 0.2) -5px -5px 5px;
+	box-shadow: inset rgba(0, 0, 0, 0.2) -5px -5px 5px;
+}
+
+form p {
+	font-size: 100%;
+	text-align: center;
+}
+
+input[type="submit"] {
+	background-color: rgb(255, 196, 170);
+	float: none;
+	width: 25%;
+	padding: 1.5%;
+	margin: 0px auto;
+	
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+}
+
+/* Validation styles */
+
+input:focus, select:focus, textarea:focus {
+	background-color: rgba(189, 222, 252, 0.5);
+}
+
+
+}
+
+
+
+
+
+
+
+

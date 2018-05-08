@@ -1,0 +1,55 @@
+/*
+   INFO 1500 Web Development
+   Website Introduction Page
+
+   Author: Julie Moore
+   Date:   2/11/2017
+
+   Filename:         itdev101.css
+   Supporting Files: 
+
+*/
+
+ /* Basic styles to be used with all devices and under all conditions */
+
+/* So the HTML5 structural tags work in older browsers */
+
+aside, figure, footer, header, nav, section {
+    display: block;
+}
+
+/* Styles for the elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Styles for the html */
+html {
+	background-image: -moz-linear-gradient(
+	    to top, #D4BB6A 10%, #FFFFFF 60%, #D4BB6A 20%, #FFFFFF 20%, #D4BB6A 100%);
+	background-image: -webkit-linear-gradient(
+	    to top, #D4BB6A 10%, #FFFFFF 60%, #D4BB6A 20%, #FFFFFF 20%, #D4BB6A 100%);
+	background-image: -o-linear-gradient(
+	    to top, #D4BB6A 10%, #FFFFFF 60%, #D4BB6A 20%, #FFFFFF 20%, #D4BB6A 100%);
+	background-image: linear-gradient(
+	    to top, #D4BB6A 10%, #FFFFFF 60%, #D4BB6A 20%, #FFFFFF 20%, #D4BB6A 100%);
+}
+
+/* Styles for the body */
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+	margin: 0 auto;	
+	color: #000000;
+	background-image: -moz-linear-gradient(
+	    top, #BCE2F4 0%, #ffffff 40%, #BCE2F4 20%, #ffffff 20%, #BCE2F4 100%);
+	background-image: -webkit-linear-gradient(
+	    top, #BCE2F4 0%, #ffffff 40%, #BCE2F4 20%, #ffffff 20%, #BCE2F4 100%);
+	background-image: -o-linear-gradient(
+	    top, #BCE2F4 0%, #ffffff 40%, #BCE2F4 20%, #ffffff 20%, #BCE2F4 100%);
+	background-image: linear-gradient(
+	    #BCE2F4 0%, #ffffff 40%, #BCE2F4 20%, #ffffff 20%, #BCE2F4 100%);
+
+}
